@@ -10,4 +10,4 @@ RUN apt-get update && \
 
 EXPOSE 3030
 
-CMD ["/fuseki/fuseki-server"]
+CMD ["/fuseki/fuseki-server", "--mem", "/gigafactory"]
