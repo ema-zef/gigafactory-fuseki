@@ -1,0 +1,788 @@
+@prefix : <http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix untitled-ontology-8: <http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#> .
+@base <http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8/> .
+
+<http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#hasParameter
+untitled-ontology-8:hasParameter rdf:type owl:ObjectProperty ,
+                                          owl:FunctionalProperty ;
+                                 rdfs:domain untitled-ontology-8:Equipment ,
+                                             untitled-ontology-8:Factory ,
+                                             untitled-ontology-8:Product ;
+                                 rdfs:range untitled-ontology-8:Parameters .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeActiveMaterial
+untitled-ontology-8:AnodeActiveMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeActiveMaterialWt
+untitled-ontology-8:AnodeActiveMaterialWt rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeActiveMaterial_Cost
+untitled-ontology-8:AnodeActiveMaterial_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeArea
+untitled-ontology-8:AnodeArea rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeBinderDensity
+untitled-ontology-8:AnodeBinderDensity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeBinderMaterial
+untitled-ontology-8:AnodeBinderMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeBinderWt
+untitled-ontology-8:AnodeBinderWt rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeBinder_Cost
+untitled-ontology-8:AnodeBinder_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeElectronsConditioner
+untitled-ontology-8:AnodeElectronsConditioner rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeElectronsConditionerWt
+untitled-ontology-8:AnodeElectronsConditionerWt rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeGravimetricEnergyDensity
+untitled-ontology-8:AnodeGravimetricEnergyDensity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeLength
+untitled-ontology-8:AnodeLength rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeMaterialRate
+untitled-ontology-8:AnodeMaterialRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodePorosity
+untitled-ontology-8:AnodePorosity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeSolventMaterial
+untitled-ontology-8:AnodeSolventMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeSolventMaterial_Cost
+untitled-ontology-8:AnodeSolventMaterial_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeThickness
+untitled-ontology-8:AnodeThickness rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeVoltage
+untitled-ontology-8:AnodeVoltage rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeWeight
+untitled-ontology-8:AnodeWeight rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AnodeWidth
+untitled-ontology-8:AnodeWidth rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Application
+untitled-ontology-8:Application rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AtomicMassCathodeMaterial_1
+untitled-ontology-8:AtomicMassCathodeMaterial_1 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AtomicMassCathodeMaterial_2
+untitled-ontology-8:AtomicMassCathodeMaterial_2 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AtomicMassCathodeMaterial_3
+untitled-ontology-8:AtomicMassCathodeMaterial_3 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AtomicMassCathodeMaterial_4
+untitled-ontology-8:AtomicMassCathodeMaterial_4 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#AtomicMassCathodeMaterial_5
+untitled-ontology-8:AtomicMassCathodeMaterial_5 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Building_Investiment
+untitled-ontology-8:Building_Investiment rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqAnodeActiveMateria
+untitled-ontology-8:CO2eqAnodeActiveMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqAnodeAdditiveMateria
+untitled-ontology-8:CO2eqAnodeAdditiveMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqAnodeBinderMateria
+untitled-ontology-8:CO2eqAnodeBinderMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqAnodeCurrentCollectorMateria
+untitled-ontology-8:CO2eqAnodeCurrentCollectorMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqAnodeSolventMateria
+untitled-ontology-8:CO2eqAnodeSolventMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeActiveMateria
+untitled-ontology-8:CO2eqCathodeActiveMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeActiveMaterial_1
+untitled-ontology-8:CO2eqCathodeActiveMaterial_1 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeActiveMaterial_2
+untitled-ontology-8:CO2eqCathodeActiveMaterial_2 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeActiveMaterial_3
+untitled-ontology-8:CO2eqCathodeActiveMaterial_3 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeActiveMaterial_4
+untitled-ontology-8:CO2eqCathodeActiveMaterial_4 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeActiveMaterial_5
+untitled-ontology-8:CO2eqCathodeActiveMaterial_5 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeAdditiveMateria
+untitled-ontology-8:CO2eqCathodeAdditiveMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeBinderMateria
+untitled-ontology-8:CO2eqCathodeBinderMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeCurrentCollectorMateria
+untitled-ontology-8:CO2eqCathodeCurrentCollectorMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqCathodeSolventMateria
+untitled-ontology-8:CO2eqCathodeSolventMateria rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqElectrolyteMaterial
+untitled-ontology-8:CO2eqElectrolyteMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqHousingMaterial
+untitled-ontology-8:CO2eqHousingMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CO2eqSeparatorMaterial
+untitled-ontology-8:CO2eqSeparatorMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Capacity
+untitled-ontology-8:Capacity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CapacityOfStack
+untitled-ontology-8:CapacityOfStack rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeActiveMaterialWt
+untitled-ontology-8:CathodeActiveMaterialWt rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeAdditiveMaterial
+untitled-ontology-8:CathodeAdditiveMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeAdditiveMaterial_Cost
+untitled-ontology-8:CathodeAdditiveMaterial_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeArea
+untitled-ontology-8:CathodeArea rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeBinderDensity
+untitled-ontology-8:CathodeBinderDensity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeBinderMaterial
+untitled-ontology-8:CathodeBinderMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeBinderWt
+untitled-ontology-8:CathodeBinderWt rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeBinder_Cost
+untitled-ontology-8:CathodeBinder_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeElectronsConditioner
+untitled-ontology-8:CathodeElectronsConditioner rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeElectronsConditionerWt
+untitled-ontology-8:CathodeElectronsConditionerWt rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeGravimetricEnergyDensity
+untitled-ontology-8:CathodeGravimetricEnergyDensity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeLength
+untitled-ontology-8:CathodeLength rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeMaterialRate
+untitled-ontology-8:CathodeMaterialRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeMaterial_1
+untitled-ontology-8:CathodeMaterial_1 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeMaterial_2
+untitled-ontology-8:CathodeMaterial_2 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeMaterial_3
+untitled-ontology-8:CathodeMaterial_3 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeMaterial_4
+untitled-ontology-8:CathodeMaterial_4 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeMaterial_5
+untitled-ontology-8:CathodeMaterial_5 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeMolecularWeight_Total
+untitled-ontology-8:CathodeMolecularWeight_Total rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodePorosity
+untitled-ontology-8:CathodePorosity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodePrecursorMaterial_Cost
+untitled-ontology-8:CathodePrecursorMaterial_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeSolventMaterial
+untitled-ontology-8:CathodeSolventMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeSolventMaterial_Cost
+untitled-ontology-8:CathodeSolventMaterial_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeThickness
+untitled-ontology-8:CathodeThickness rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeVoltage
+untitled-ontology-8:CathodeVoltage rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeWeight
+untitled-ontology-8:CathodeWeight rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CathodeWidth
+untitled-ontology-8:CathodeWidth rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CellCapacity
+untitled-ontology-8:CellCapacity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CellSpecificCapacity
+untitled-ontology-8:CellSpecificCapacity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ChangeOverTime
+untitled-ontology-8:ChangeOverTime rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Code
+untitled-ontology-8:Code rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CostCathodeMaterial_1
+untitled-ontology-8:CostCathodeMaterial_1 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CostCathodeMaterial_2
+untitled-ontology-8:CostCathodeMaterial_2 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CostCathodeMaterial_3
+untitled-ontology-8:CostCathodeMaterial_3 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CostCathodeMaterial_4
+untitled-ontology-8:CostCathodeMaterial_4 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CostCathodeMaterial_5
+untitled-ontology-8:CostCathodeMaterial_5 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorAnode_Cost
+untitled-ontology-8:CurrentCollectorAnode_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorArea_Anode
+untitled-ontology-8:CurrentCollectorArea_Anode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorArea_Cathode
+untitled-ontology-8:CurrentCollectorArea_Cathode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorCathode_Cost
+untitled-ontology-8:CurrentCollectorCathode_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorMaterialQuantity_Anode
+untitled-ontology-8:CurrentCollectorMaterialQuantity_Anode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorMaterialQuantity_Cathode
+untitled-ontology-8:CurrentCollectorMaterialQuantity_Cathode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorMaterial_Anode
+untitled-ontology-8:CurrentCollectorMaterial_Anode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorMaterial_Cathode
+untitled-ontology-8:CurrentCollectorMaterial_Cathode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorWidth_Anode
+untitled-ontology-8:CurrentCollectorWidth_Anode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#CurrentCollectorWidth_Cathode
+untitled-ontology-8:CurrentCollectorWidth_Cathode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#DepreciationTime
+untitled-ontology-8:DepreciationTime rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#DryingChamberLength
+untitled-ontology-8:DryingChamberLength rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ElectricityCostRate
+untitled-ontology-8:ElectricityCostRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ElectricityDemand
+untitled-ontology-8:ElectricityDemand rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Electricity_CO2eqRate
+untitled-ontology-8:Electricity_CO2eqRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Electricity_Demand
+untitled-ontology-8:Electricity_Demand rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ElectrolyteMaterial
+untitled-ontology-8:ElectrolyteMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ElectrolyteMaterialCost
+untitled-ontology-8:ElectrolyteMaterialCost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ElectrolyteQuantity
+untitled-ontology-8:ElectrolyteQuantity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ElectronsConditionerDensity
+untitled-ontology-8:ElectronsConditionerDensity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#FloorSpaceCostRate
+untitled-ontology-8:FloorSpaceCostRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Floor_Space
+untitled-ontology-8:Floor_Space rdf:type owl:DatatypeProperty ;
+                                rdfs:comment "This expresses the area footprint of the machine/equipment."@en .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#GasCostRate
+untitled-ontology-8:GasCostRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#GasDemand
+untitled-ontology-8:GasDemand rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Gas_Demand
+untitled-ontology-8:Gas_Demand rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#HousingMaterial
+untitled-ontology-8:HousingMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#HousingMaterialQuantity
+untitled-ontology-8:HousingMaterialQuantity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#HousingMaterial_Cost
+untitled-ontology-8:HousingMaterial_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Installation_Cost
+untitled-ontology-8:Installation_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Investment_Cost
+untitled-ontology-8:Investment_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Location
+untitled-ontology-8:Location rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MTBF
+untitled-ontology-8:MTBF rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MTBM
+untitled-ontology-8:MTBM rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MTTM
+untitled-ontology-8:MTTM rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MTTR
+untitled-ontology-8:MTTR rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Massload_Anode
+untitled-ontology-8:Massload_Anode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MolarWeightPrecursorMaterial_1
+untitled-ontology-8:MolarWeightPrecursorMaterial_1 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MolarWeightPrecursorMaterial_2
+untitled-ontology-8:MolarWeightPrecursorMaterial_2 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MolarWeightPrecursorMaterial_3
+untitled-ontology-8:MolarWeightPrecursorMaterial_3 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MolarWeightPrecursorMaterial_4
+untitled-ontology-8:MolarWeightPrecursorMaterial_4 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MolarWeightPrecursorMaterial_5
+untitled-ontology-8:MolarWeightPrecursorMaterial_5 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#MolecularWeightOfTheCompound
+untitled-ontology-8:MolecularWeightOfTheCompound rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Name
+untitled-ontology-8:Name rdf:type owl:DatatypeProperty ;
+                         rdfs:domain untitled-ontology-8:Equipment ;
+                         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Nassload_Cathode
+untitled-ontology-8:Nassload_Cathode rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfAdditionalSeparatorInCell
+untitled-ontology-8:NoOfAdditionalSeparatorInCell rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfAtomsCathodeMaterial_1
+untitled-ontology-8:NoOfAtomsCathodeMaterial_1 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfAtomsCathodeMaterial_2
+untitled-ontology-8:NoOfAtomsCathodeMaterial_2 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfAtomsCathodeMaterial_3
+untitled-ontology-8:NoOfAtomsCathodeMaterial_3 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfAtomsCathodeMaterial_4
+untitled-ontology-8:NoOfAtomsCathodeMaterial_4 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfAtomsCathodeMaterial_5
+untitled-ontology-8:NoOfAtomsCathodeMaterial_5 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfElectrodesInStack
+untitled-ontology-8:NoOfElectrodesInStack rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfOperators
+untitled-ontology-8:NoOfOperators rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfSeparatorsInCell
+untitled-ontology-8:NoOfSeparatorsInCell rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfSeparatorsInStack
+untitled-ontology-8:NoOfSeparatorsInStack rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfStackInCell
+untitled-ontology-8:NoOfStackInCell rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Output
+untitled-ontology-8:Output rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#OverheadCostRate
+untitled-ontology-8:OverheadCostRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#PrecursorMaterial_1
+untitled-ontology-8:PrecursorMaterial_1 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#PrecursorMaterial_2
+untitled-ontology-8:PrecursorMaterial_2 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#PrecursorMaterial_3
+untitled-ontology-8:PrecursorMaterial_3 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#PrecursorMaterial_4
+untitled-ontology-8:PrecursorMaterial_4 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#PrecursorMaterial_5
+untitled-ontology-8:PrecursorMaterial_5 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ProcessingTime
+untitled-ontology-8:ProcessingTime rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#ProductType
+untitled-ontology-8:ProductType rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#PurchasingCost
+untitled-ontology-8:PurchasingCost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#QualityRate
+untitled-ontology-8:QualityRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Runnig_CostRate
+untitled-ontology-8:Runnig_CostRate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SealingMaterial
+untitled-ontology-8:SealingMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Sealing_Cost
+untitled-ontology-8:Sealing_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SeparatorLength
+untitled-ontology-8:SeparatorLength rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SeparatorMaterial
+untitled-ontology-8:SeparatorMaterial rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SeparatorMaterialQuantity
+untitled-ontology-8:SeparatorMaterialQuantity rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SeparatorMaterial_Cost
+untitled-ontology-8:SeparatorMaterial_Cost rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SeparatorThickness
+untitled-ontology-8:SeparatorThickness rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SeparatorWidth
+untitled-ontology-8:SeparatorWidth rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SpecificCapacityActual
+untitled-ontology-8:SpecificCapacityActual rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SpeedMax
+untitled-ontology-8:SpeedMax rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#SpeedMin
+untitled-ontology-8:SpeedMin rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Startup_Time
+untitled-ontology-8:Startup_Time rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#TargetedElectrodeLoading
+untitled-ontology-8:TargetedElectrodeLoading rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#WebWidth
+untitled-ontology-8:WebWidth rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Hour/Shift
+<http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Hour/Shift> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfDays/Week
+<http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfDays/Week> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfShift/Day
+<http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#NoOfShift/Day> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#OperatingHours/Day
+<http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#OperatingHours/Day> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Equipment
+untitled-ontology-8:Equipment rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Factory
+untitled-ontology-8:Factory rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Intermediate_Product_Property
+untitled-ontology-8:Intermediate_Product_Property rdf:type owl:Class ;
+                                                  rdfs:subClassOf untitled-ontology-8:Parameters .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Parameters
+untitled-ontology-8:Parameters rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Performance_Criteria
+untitled-ontology-8:Performance_Criteria rdf:type owl:Class ;
+                                         rdfs:subClassOf untitled-ontology-8:Parameters .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Product
+untitled-ontology-8:Product rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Product_Material
+untitled-ontology-8:Product_Material rdf:type owl:Class ;
+                                     rdfs:subClassOf untitled-ontology-8:Product .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#State_Variable
+untitled-ontology-8:State_Variable rdf:type owl:Class ;
+                                   rdfs:subClassOf untitled-ontology-8:Parameters .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Design/Control_Parameter
+<http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Design/Control_Parameter> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf untitled-ontology-8:Parameters .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Internal/External_Influence
+<http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Internal/External_Influence> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf untitled-ontology-8:Parameters .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Cell_Design
+untitled-ontology-8:Cell_Design rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-8:Product .
+
+
+###  http://www.semanticweb.org/zeferinoefs/ontologies/2026/1/untitled-ontology-8#Coating_Drying
+untitled-ontology-8:Coating_Drying rdf:type owl:NamedIndividual ,
+                                            untitled-ontology-8:Equipment ;
+                                   untitled-ontology-8:ChangeOverTime 30 ;
+                                   untitled-ontology-8:Code "SDC" ;
+                                   untitled-ontology-8:DepreciationTime 10 ;
+                                   untitled-ontology-8:DryingChamberLength 40 ;
+                                   untitled-ontology-8:Electricity_Demand 75 ;
+                                   untitled-ontology-8:Gas_Demand 825 ;
+                                   untitled-ontology-8:Installation_Cost 200000 ;
+                                   untitled-ontology-8:Investment_Cost 5500000 ;
+                                   untitled-ontology-8:MTBF 0 ;
+                                   untitled-ontology-8:MTBM 0 ;
+                                   untitled-ontology-8:MTTM 0 ;
+                                   untitled-ontology-8:MTTR 0 ;
+                                   untitled-ontology-8:Name "SlotDyeCoating" ;
+                                   untitled-ontology-8:NoOfOperators 2 ;
+                                   untitled-ontology-8:QualityRate 0.5 ;
+                                   untitled-ontology-8:Runnig_CostRate 5 ;
+                                   untitled-ontology-8:SpeedMax 80 ;
+                                   untitled-ontology-8:SpeedMin 30 ;
+                                   untitled-ontology-8:Startup_Time 0.3 ;
+                                   untitled-ontology-8:WebWidth 1.5 .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
