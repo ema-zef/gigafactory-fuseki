@@ -17,8 +17,4 @@ RUN mkdir -p /fuseki/DB
 
 EXPOSE 3030
 
-CMD bash -c "
-if [ ! -f /fuseki/DB/Data-0001.dat ]; then 
-/fuseki/tdb2.tdbloader --loc=/fuseki/DB /fuseki/data/myOntology.ttl; 
-fi && 
-/fuseki/fuseki-server --config=/fuseki/config.ttl"
+CMD ["/fuseki/fuseki-server", "--config=/fuseki/config.ttl"]
