@@ -13,3 +13,4 @@ COPY config.ttl /fuseki/config.ttl
 COPY data /fuseki/data
 
 EXPOSE 3030
+CMD ["/fuseki/fuseki-server","--config=/fuseki/config.ttl"]
