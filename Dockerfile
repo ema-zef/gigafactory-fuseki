@@ -16,4 +16,4 @@ RUN mkdir -p /fuseki/DB
 
 EXPOSE 3030
 
-CMD sh -c "/fuseki/tdb2.tdbloader --loc=/fuseki/DB /fuseki/data/myOntology.ttl && /fuseki/fuseki-server --config=/fuseki/config.ttl"
+CMD sh -c "ls -la /fuseki && sleep 3600"
