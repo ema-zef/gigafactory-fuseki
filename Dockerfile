@@ -13,10 +13,8 @@ WORKDIR /fuseki
 COPY config.ttl /fuseki/config.ttl
 COPY data /fuseki/data
 
-RUN mkdir -p /fuseki/DB && \
-    /fuseki/tdb2.tdbloader --loc=/fuseki/DB /fuseki/data/myOntology.ttl
 RUN ls -la /fuseki && \
-    ls -la /fuseki/bin && \
-    find /fuseki -name "*tdb*"
+    find /fuseki -name "*tdb*" && \
+    find /fuseki -name "*loader*"
 
 CMD ["/fuseki/fuseki-server","--config=/fuseki/config.ttl"]
